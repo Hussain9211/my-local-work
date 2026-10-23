@@ -1,0 +1,19 @@
+<svg width="1157" height="610" viewBox="0 0 1157 610" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.93694 0.869141C-6.20765 129.762 45.1661 258.325 140.462 345.446C259.988 454.189 446.601 502.381 604.245 463.097C652.73 449.342 700.454 423.914 728.739 381C741.715 360.673 748.178 336.006 741.386 312.734C732.718 281.926 701.848 266.623 670.978 273.424C614.181 286.037 576.898 342.807 570.562 398.485C560.323 480.277 617.932 557.882 692.394 586.787C821.095 636.781 946.146 561.815 1039.9 477.181C1072.69 447.566 1109.16 416.681 1156 417.493" stroke="#F9F9F9" stroke-width="14" stroke-linejoin="bevel">
+    <!-- Draw animation - synchronized -->
+    <animate 
+      id="drawAnim"
+      attributeName="stroke-dashoffset" 
+      values="1200;0" 
+      dur="5s" 
+      begin="0s;drawAnim.end+0.1s"
+      fill="freeze" />
+    
+    <animate 
+      attributeName="stroke-dasharray" 
+      values="0,1200;1200,0" 
+      dur="3s" 
+      begin="0s;drawAnim.end+0.1s"
+      fill="freeze" />
+  </path>
+</svg>
