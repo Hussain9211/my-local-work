@@ -1980,13 +1980,3 @@ a {
 .slide {
     flex-shrink: 0;
 }
-
-/* Hellow world !! */
-/* I have modified this code */
-
-.dj{
-    background: none;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-}
